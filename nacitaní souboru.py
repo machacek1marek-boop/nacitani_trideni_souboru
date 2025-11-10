@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # prece se souborem
 soubor = open('seznam_mest2.txt','r',encoding='utf-8')
 
@@ -20,4 +21,4 @@ for i, radek in enumerate(nacteny_radek):
     else:
         nazev_okresu = radek.strip().split('\t')[2].split()[1]
         print('město:',nazev_mesta,',','okres:',nazev_okresu)
-        print("KONEC")
+print("KONEC")
